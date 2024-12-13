@@ -39,14 +39,7 @@ To get started with the project, follow these steps:
      ```sh
      python dashboard/app.py
      ```
-
-## Running Tests
-
-To run the tests, use the following command:
-```sh
-pytest tests/
-```
-
+     
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
