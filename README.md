@@ -1,7 +1,12 @@
 # ReBit
 
-Hello world
-## Main Function
+This project analyses the impact of social media sentiment on Bitcoin price. Reddit is used as 
+the primary data source. The sentiment analysis is performed using the VADER algorithm. 
+Then, the results are explored to identify their correlation with Bitcoin price fluctuations.
+
+The project provides a publicly accessible dashboard with real-time 
+sentiment information about Bitcoin and sends a daily WhatsApp message with the summary 
+of the day decision-makers, offering actionable insights to support their investment decisions.
 
 ## Project Structure
 
@@ -10,12 +15,9 @@ The project consists of the following files and directories:
 - `dashboard/`
     - `app.py`: Contains the main function to run the dashboard application.
     - `utils.py`: Utility functions used across the dashboard application.
-    - `config.py`: Configuration settings for the dashboard application.
-- `data/`
-    - `data.csv`: The dataset used by the dashboard application.
-- `tests/`
-    - `test_app.py`: Unit tests for the `app.py` script.
-    - `test_utils.py`: Unit tests for the `utils.py` script.
+- `BUCKET/`
+    - `bitcoin_data`: Collected Bitcoin price data for a one-week period.
+    - `bitcoin_reddit_comments.csv`: Collected Reddit comments about Bitcoin for a one-week.
 - `README.md`: This file, providing an overview of the project.
 - `requirements.txt`: Lists the Python dependencies required for the project.
 
