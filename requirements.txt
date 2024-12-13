@@ -1,0 +1,7 @@
+boto3==1.35.72
+dash==2.18.2
+pandas==2.2.3
+plotly==5.22.0
+gunicorn==23.0.0
+apscheduler==3.11.0
+requests==2.32.2

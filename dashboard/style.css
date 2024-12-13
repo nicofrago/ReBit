@@ -1,0 +1,39 @@
+/* body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+
+.card-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+} */
+
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card-title {
+    font-size: 1rem;
+}
+
+.card-text {
+    font-size: 1.5rem;
+}
+
+.sidebar {
+    background-color: #343a40;
+    color: white;
+    height: 100vh;
+    padding: 1rem;
+}
